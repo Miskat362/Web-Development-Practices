@@ -1,0 +1,135 @@
+/* Header Part Start */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+header{
+    width: 100%;
+    background-color: black ;
+    color: white;
+    display: flex;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px ;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    padding-left: 500px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #262626;
+    width: 170px;
+    border: 1px solid#fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.5s;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/* Header Part End */
+
+/* Form Part Start */
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 30px 100px;
+    margin-top: 80px;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0,0.2);
+}
+.form1 input{
+    padding: 5px 50px;
+    border-color: rgb(196, 46, 58);
+    border-radius: 10px;
+}
+.form1 .btn{
+    font-weight: bold;
+}
+/* Form Part End */
+
+/* Footer Part Start */
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.name h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.text p{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+.icon i{
+    font-size: 35px;
+    position: relative;
+    top: -10px;
+    padding: 10px;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    line-height: 50px;
+    font-size: 18px;
+}
+/* Footer part End */
+
+/* Mobile View */
+@media ( max-width: 768px){
+    .logo{ margin-left: 50px;
+    margin-top: 25px;}
+    .navbar{ padding-left: 70px;}
+    .form1{padding: 35px 45px;}
+    .text p{ width: 375px;}
+    .icon i{ font-size: 25px;}
+    .copy{ font-size: 14px;}
+    .navbar ul li{
+        width:  124px;
+        height: 35px;
+        line-height: 33px;
+        font-size: 13px;}
+}
