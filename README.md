@@ -32,7 +32,7 @@ This is a visually stunning, fully responsive personal portfolio website built a
 
 ## ✨ Screenshots
 
-![Home Section]([images\Screenshot.png](https://github.com/Miskat362/Web-Development-Practices/blob/2dfdbb082a610ff36c9325a816a3bd6dd93478fc/Portfolio%20Website/images/Screenshot.png))
+![Home Section](https://github.com/Miskat362/Web-Development-Practices/blob/2dfdbb082a610ff36c9325a816a3bd6dd93478fc/Portfolio%20Website/images/Screenshot.png)
 > *Home section with animated intro and hero image.*
 
 ---
